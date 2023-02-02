@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>応募フォーム</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <h1>
+        <a href="">KATO-JOB</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <i class="bi bi-houses sp"></i>
+            <a href="index.html">ホーム</a>
+          </li>
+          <li>
+            <i class="bi bi-list sp"></i>
+            <a href="job.html">募集事項</a>
+          </li>
+          <li>
+            <i class="bi bi-arrow-return-right sp"></i>
+            <a href="form.html">応募</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mainvisual">
+    <img src="img/ofis2.jpg" alt="メイン画像">
+  </div>
+
+  <main>
+    <div class="main-upper">
+      <h2 class="site-title">応募フォーム</h2>
+      <p>
+        下記の応募フォームにすべてご記入の上、送信してください。<br>
+        <span>※ファイルの添付はできません。作品のファイルがある場合は必ずアップロードしたURLをご記入ください。</span>
+      </p>
+      <table>
+        <tr>
+          <th>お名前</th>
+          <td>
+            <input type="text" placeholder="例:加藤大貴">
+          </td>
+        </tr>
+        <tr>
+          <th>フリガナ</th>
+          <td>
+            <input type="text" placeholder="例:カトウ ダイキ">
+          </td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td>
+            <input type="email"
+            placeholder="hello@example.com">
+          </td>
+        </tr>
+        <tr>
+          <th>ポートフォリオ</th>
+          <td>
+            <input type="url" placeholder="http://ezample.com">
+          </td>
+        </tr>
+        <tr>
+          <th>希望勤務地</th>
+          <td class="border-none checkbox_flex">
+            <label>
+              <input type="checkbox" value="東京">東京
+            </label>
+            <label>
+              <input type="checkbox" value="大阪">大阪
+            </label>
+            <label>
+              <input type="checkbox" value="リモート勤務地">リモート勤務地
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th>現在の状態</th>
+          <td class="border-none pc">
+            <div class="select_icon">
+              <select name="" id="">
+                <option value="">会社に在籍中</option>
+                <option value="">フリーランス</option>
+                <option value="">学生</option>
+                <option value="">休職中</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>自己PR</th>
+          <td class="border-none">
+            <textarea name="" id="" cols="30" rows="10" placeholder="特技強みなど"></textarea>
+          </td>
+        </tr>
+      </table>
+
+      <button>送信する</button>
+    </div>
+
+  </main>
+
+
+  
+
+  <footer>
+    <ul>
+      <li><a href="#">会社概要</a></li>
+      <li><a href="#">サービス内容</a></li>
+      <li><a href="#">スタッフブログ</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
